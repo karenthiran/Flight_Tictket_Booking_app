@@ -14,6 +14,8 @@
   --sidebar-active:#4690f6;
   --main-bg-color:#ecf3fe;
   --card-design-border:0px;
+  --card-design-background:#f6fafd;
+  --btn-backgroundcolor:#3fc54a;
 }
 
 .sidebar{
@@ -55,8 +57,17 @@
 }
 .card-design{
   border: var(--card-design-border) !important;
+  background-color: var(--card-design-background) !important;
 }
 .flight-image{
-  width: 35%;
-  height: 70%;
+  width: 40%;
+  height: 80%;
+}
+
+.btn-color{
+  background-color: var(--btn-backgroundcolor) !important;
+}
+
+.form-control{
+  border: 0px !important;
 }
