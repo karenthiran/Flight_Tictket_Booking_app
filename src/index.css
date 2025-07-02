@@ -12,6 +12,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --sidebar-active:#4690f6;
+  --main-bg-color:#ecf3fe;
+  --card-design-border:0px;
 }
 
 .sidebar{
@@ -44,4 +46,17 @@
 .sidebar-links ul li a{
   color: rgb(0, 0, 0);
   text-decoration: none;
+}
+
+.main-container{
+  width: 100%;
+  padding: 15px;
+  background-color: var(--main-bg-color);
+}
+.card-design{
+  border: var(--card-design-border) !important;
+}
+.flight-image{
+  width: 35%;
+  height: 70%;
 }
